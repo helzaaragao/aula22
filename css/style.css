@@ -62,8 +62,17 @@
 
 .titlePort h2 {
     font-size: 2em;
-    color: rgb(20, 27, 64);
+    color: rgb(11, 11, 110);
     font-weight: bolder;
+}
+
+.itemDetails{ 
+    width: 350px;
+}
+
+.itemDetails:hover{ 
+    background-color: #a9868650;
+    border-radius: 5%;
 }
 
 .itemDetails img {
@@ -97,7 +106,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #d8c6b1;
+    background-color: #cbb9a4;
     margin-top: 3rem;
     margin-bottom: 3rem;
 

@@ -68,12 +68,12 @@
     font-weight: bolder;
 }
 
-.itemDetails{ 
+.itemDetails {
     width: 350px;
     cursor: pointer;
 }
 
-.itemDetails:hover{ 
+.itemDetails:hover {
     background-color: #a9868650;
     border-radius: 5%;
 }
@@ -102,7 +102,7 @@
     margin: 0;
 }
 
-.sobre .title-line .line{
+.sobre .title-line .line {
     display: block;
     width: 4rem;
     height: 0.3vh;
@@ -111,8 +111,9 @@
     margin: 0;
     padding: 0;
 }
-.sobre .title-line i{
-    color:#fff ;
+
+.sobre .title-line i {
+    color: #fff;
 }
 
 
@@ -131,8 +132,9 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
 .sobre .mt-2 {
-    margin-top: -3.2rem!important;
+    margin-top: -3.2rem !important;
 }
 
 .container-text {
@@ -174,13 +176,28 @@
 
 }
 
+.footer h2 {
+    font-size: 6vw;
+}
 
+.align {
+    color: white;
+    text-align: center;
+}
+
+.size {
+    font-size: 4vw;
+}
+
+.copyright {
+    background-color: #1a252f;
+}
 
 
 /* Joao aqui /*/
 label.logo {
     color: white;
-    font-size: 35px;
+    font-size: 6vw;
     line-height: 80px;
     padding: 0 32px;
     font-weight: bold;
@@ -201,12 +218,12 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 40vw;
     align-items: center;
     width: 100%;
 }
 
-.menu {
+/*.menu {
     display: none;
     text-decoration: none;
     color: white;
@@ -217,7 +234,8 @@ header {
     font-size: bold;
     
 
-}
+
+}*/
 
 
 
@@ -228,9 +246,68 @@ header {
         display: flex;
         flex-direction: row;
     }
+/*responsico hearder*/
+label.logo {
+    color: white;
+    font-size: 3vw;
+}
+
+ header {
+        height: 10vw;
+        width: 100%;
+    }
+    
+
+/*responsivo hearder*/
+
+.footer {
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
-@media (max-width: 460px){
+
+.containerp {
+    width: 10vw;
+
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures img {
+    max-width: 3vw;
+    padding: 0%;
+}
+
+.footer h2 {
+    font-size: 1.5vw;
+}
+
+.align {
+    color: white;
+    text-align: center;
+}
+
+.size {
+    font-size: 1vw;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    background-color: #1a252f;
+}
+}
+
+
+@media (max-width: 460px) {
     .menu {
         display: flex;
         justify-content: center;
@@ -241,18 +318,16 @@ header {
         border-radius: 5%;
         background: #c2b2b3;
         width: 20vw;
-    
+
     }
-    .nav-bar{
+
+    .nav-bar {
         display: flex;
         justify-content: end;
         align-items: end;
         margin: 0 12px;
     }
 }
-    
-
-
 
 
 
@@ -264,4 +339,5 @@ header {
         padding: 0;
     }
 }
+
 

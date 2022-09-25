@@ -165,8 +165,7 @@
     color: #fff;
 }
 
-<<<<<<< HEAD
-=======
+
 @media(min-width: 900px) {
     .item {
         display: flex;
@@ -177,7 +176,6 @@
 
 
 
->>>>>>> b1f044bb7b22a678d44339bddb254e722bf04385
 
 /* Joao aqui /*/
 label.logo {
@@ -216,6 +214,7 @@ header {
     border-radius: 5px;
     background: #c2b2b3;
     padding-left: 15px;
+    font-size: bold;
     
 
 }
@@ -256,9 +255,7 @@ header {
 
 
 
-<<<<<<< HEAD
-=======
-}
+
 
 
 @media(max-width: 650px) {
@@ -267,4 +264,4 @@ header {
         padding: 0;
     }
 }
->>>>>>> b1f044bb7b22a678d44339bddb254e722bf04385
+

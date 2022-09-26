@@ -132,6 +132,9 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+.container{
+    max-width: 100vw;
+}
 
 .sobre .mt-2 {
     margin-top: -3.2rem !important;

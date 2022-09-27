@@ -57,7 +57,24 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(235, 168, 163);
+    background-color: rgba(197, 175, 174, 0.851);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.avatar img { 
+    width: 200px;
+}
+
+.text-avatar h1 { 
+    color: white; 
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+
+.text-avatar h5 { 
+    color: white; 
 }
 
 

@@ -115,7 +115,9 @@
 .sobre .title-line i {
     color: #fff;
 }
-
+.container{
+    max-width: 100%;
+}
 
 
 
@@ -131,9 +133,6 @@
     background-color: #cbb9a4;
     margin-top: 3rem;
     margin-bottom: 3rem;
-}
-.container{
-    max-width: 100vw;
 }
 
 .sobre .mt-2 {
@@ -170,12 +169,24 @@
     color: #fff;
 }
 
+.footer {
+    width: 100%;
+    height: 120vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(83, 104, 126, 255);
+}
 
-@media(min-width: 900px) {
-    .item {
-        display: flex;
-        flex-direction: row;
-    }
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures img {
+    max-width: 12vw;
 
 }
 
@@ -234,8 +245,6 @@ header {
     border-radius: 5px;
     background: #c2b2b3;
     padding-left: 15px;
-    font-size: bold;
-    
 
 
 }*/
@@ -272,7 +281,8 @@ label.logo {
 }
 
 .containerp {
-    width: 10vw;
+    
+width: 10vw;
 
 }
 
@@ -331,16 +341,3 @@ label.logo {
         margin: 0 12px;
     }
 }
-
-
-
-
-
-@media(max-width: 650px) {
-    .margin-paragraf {
-        margin: 0;
-        padding: 0;
-    }
-}
-
-

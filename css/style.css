@@ -51,6 +51,17 @@
     font-weight: 500;
 }
 
+.banner { 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(235, 168, 163);
+}
+
+
+
 .Portfolio {
     width: 100vw;
     display: flex;
@@ -343,11 +354,3 @@ label.logo {
 
 
 
-<<<<<<< HEAD=======@media(max-width: 650px) {
-    .margin-paragraf {
-        margin: 0;
-        padding: 0;
-    }
-}
-
->>>>>>>b1f044bb7b22a678d44339bddb254e722bf04385

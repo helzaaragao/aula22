@@ -126,7 +126,9 @@
 .sobre .title-line i {
     color: #fff;
 }
-
+.container{
+    max-width: 100%;
+}
 
 
 
@@ -290,7 +292,8 @@ label.logo {
 }
 
 .containerp {
-    width: 10vw;
+    
+width: 10vw;
 
 }
 
@@ -349,8 +352,3 @@ label.logo {
         margin: 0 12px;
     }
 }
-
-
-
-
-

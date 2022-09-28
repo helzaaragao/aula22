@@ -34,6 +34,25 @@
     background-color: rgb(11, 11, 110);
 }
 
+.title-line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-line2 i {
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0 8px;
+}
+
+.title-line2 .line2 {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #ffffff;
+}
+
 .form-control {
     border: 0;
     border-bottom: 1px solid #ced4da;
